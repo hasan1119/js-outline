@@ -354,7 +354,7 @@ var b = 20;
 // var reg = /error/gi;
 // console.log(str.matchAll(reg));
 
-var str = 'hello world! . hello world'
+// var str = 'hello world! . hello world'
 
 // for (let i of str) {
 //     console.log(i);
@@ -391,8 +391,8 @@ var str = 'hello world! . hello world'
 
 // Number
 
-var num = "10.834351";
-var num = "10.834351";
+// var num = "10.834351";
+// var num = "10.834351";
 // var num1 = new Number('100')
 // console.log(num1.toString());
 // console.log(num1);
@@ -401,3 +401,110 @@ var num = "10.834351";
 
 // console.log(Number.parseInt(num));
 // console.log(Number.parseInt(num));
+
+// var num = 2 / 0;
+var num = 50 / 'wer';
+// console.log(Number.isInteger(num));
+// console.log(Number.isNaN(num));
+
+// var bol = false;
+// var bol1 = Boolean(0.124) // false, 0, '' , undefined , null, NaN 
+
+// console.log(bol1);
+
+
+
+// Array
+
+
+// var arr2 = new Array(5)
+// console.log(arr2.length);
+// console.log(arr[1]);
+
+// console.log(arr2[2]);
+// arr[2] = "hello"
+// console.log(arr[2]);
+// console.log(arr);
+
+
+// const arr = [1, 3, 6, "three", 6, "Lst"]
+
+// arr.push("push", "a", "b")
+// arr.unshift("unshift")
+// arr.pop()
+// arr.shift()
+
+// arr.splice(4)
+// arr.splice(3, 3)
+// arr.splice(2, 1, "new element", "new2")
+// arr.splice(2, 0, "new element", "new2")
+// var returnedArray = arr.slice(1, 3)
+
+// console.log(returnedArray);
+// console.log()
+
+// console.log(Array.isArray(arr));
+// console.log(arr instanceof Array);
+
+// console.log(typeof );
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
+// const cars = ["Saab", "Volvo", "BMW"];
+// const num1 = [1, 2, 3, 4, 5]
+
+// console.log(cars.toString());
+// console.log(cars.join("*"));
+
+// var newArray = fruits.concat(cars, num1, "Extra", "extra extra", 1)
+// console.log(fruits.indexOf("Apple"));
+// console.log(fruits.indexOf("Apple", 2));
+// console.log(fruits.indexOf("Apple", -2));
+
+
+// const arr = [1, 3, 5, 4, 6, 2]
+
+
+
+
+
+
+
+
+let arr = [{
+        name: "Mehedi Hasan",
+        age: 25
+    },
+    {
+        name: "Hasan",
+        age: 21
+    },
+    {
+        name: "Roni",
+        age: 26
+    },
+    {
+        name: "Kafi",
+        age: 30
+    },
+]
+
+// console.log(arr.findIndex(function (e) {
+//     return e > 5
+// }));
+
+// console.log(arr.findIndex((e, i, arr)));
+
+
+// console.log(arr.findIndex(function (e) {
+//     return e.age == 30
+// }));
+
+// console.log(arr.find(function (e) {
+//     return e.age == 30
+// }));
+
+const arr1 = [1, 3, 5, 4, 6, 2, 6, 8]
+
+console.log(arr1.filter(function (e) {
+    return e > 5;
+}));
