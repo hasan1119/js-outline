@@ -427,7 +427,7 @@ var num = 50 / 'wer';
 // console.log(arr);
 
 
-// const arr = [1, 3, 6, "three", 6, "Lst"]
+const arr = [1, 3, 6, "three", 6, "Lst"]
 
 // arr.push("push", "a", "b")
 // arr.unshift("unshift")
@@ -435,10 +435,13 @@ var num = 50 / 'wer';
 // arr.shift()
 
 // arr.splice(4)
-// arr.splice(3, 3)
-// arr.splice(2, 1, "new element", "new2")
+// arr.splice(3, 2)
+// arr.splice(3, 1, "new element", "new2")
 // arr.splice(2, 0, "new element", "new2")
 // var returnedArray = arr.slice(1, 3)
+
+// console.log(returnedArray);
+
 
 // console.log(returnedArray);
 // console.log()
@@ -463,30 +466,23 @@ var num = 50 / 'wer';
 
 // const arr = [1, 3, 5, 4, 6, 2]
 
-
-
-
-
-
-
-
-let arr = [{
-        name: "Mehedi Hasan",
-        age: 25
-    },
-    {
-        name: "Hasan",
-        age: 21
-    },
-    {
-        name: "Roni",
-        age: 26
-    },
-    {
-        name: "Kafi",
-        age: 30
-    },
-]
+// let arr = [{
+//         name: "Mehedi Hasan",
+//         age: 25
+//     },
+//     {
+//         name: "Hasan",
+//         age: 21
+//     },
+//     {
+//         name: "Roni",
+//         age: 26
+//     },
+//     {
+//         name: "Kafi",
+//         age: 30
+//     },
+// ]
 
 // console.log(arr.findIndex(function (e) {
 //     return e > 5
@@ -503,8 +499,79 @@ let arr = [{
 //     return e.age == 30
 // }));
 
-const arr1 = [1, 3, 5, 4, 6, 2, 6, 8]
 
-console.log(arr1.filter(function (e) {
-    return e > 5;
-}));
+
+// console.log(arr1.find(condition));
+
+
+// function condition(e) {
+//     return e > 5;
+// }
+
+// console.log(parseFloat("123.343"));
+
+
+// const arr1 = [1, 3, 5, 4, 6, 2, 8, 9, 6, 8]
+
+// arr1.forEach((e, i, arr) => {
+//     console.log(e, i, arr);
+// })
+
+
+// var newArray = arr1.map((e) => {
+//     return arr
+// })
+
+
+// console.log(newArray);
+
+
+
+// console.log(abc());
+
+
+const arr1 = [1, 3, 5, 2, 9, ]
+
+// var result = arr1.some((e, i, arr) => {
+//     return e % 2 === 0
+// })
+
+// var result = arr1.every((e) => {
+//     return e % 2 === 0
+// })
+
+// console.log(result);
+
+
+
+// function abc(p) {
+//     return a + b;
+// }
+
+
+// abc(1, 0 , [])
+
+// console.log(arr2);
+// arr2.copyWithin(2, 0, 2)
+
+// console.log(arr2);
+
+// var arr2 = ["adfdf", "zfdf", 1, 'qdfdf', "Z", "b", "c", -2344, 23434, 'd', 'e']
+// 0-9
+// a-z
+// arr2.sort()
+// arr2.reverse()
+
+// console.log(arr2);arr2.sort()
+// arr2.reverse()
+
+// console.log(arr2);
+
+// console.log("badfdfdf".charCodeAt(0));
+// console.log("Aadfdfdf".charCodeAt(0));
+
+// var arr4 = [100, 20, 1453, 45];
+
+// arr4.sort((a, b) => a - b)
+
+// console.log(arr4);
