@@ -403,7 +403,7 @@ var b = 20;
 // console.log(Number.parseInt(num));
 
 // var num = 2 / 0;
-var num = 50 / 'wer';
+// var num = 50 / 'wer';
 // console.log(Number.isInteger(num));
 // console.log(Number.isNaN(num));
 
@@ -427,7 +427,7 @@ var num = 50 / 'wer';
 // console.log(arr);
 
 
-const arr = [1, 3, 6, "three", 6, "Lst"]
+// const arr = [1, 3, 6, "three", 6, "Lst"]
 
 // arr.push("push", "a", "b")
 // arr.unshift("unshift")
@@ -530,7 +530,7 @@ const arr = [1, 3, 6, "three", 6, "Lst"]
 // console.log(abc());
 
 
-const arr1 = [1, 3, 5, 2, 9, ]
+// const arr1 = [1, 3, 5, 2, 9, ]
 
 // var result = arr1.some((e, i, arr) => {
 //     return e % 2 === 0
@@ -575,3 +575,292 @@ const arr1 = [1, 3, 5, 2, 9, ]
 // arr4.sort((a, b) => a - b)
 
 // console.log(arr4);
+
+
+// var arr6 = [2, 3, 5, 6]
+
+// var shipping = 0;
+// var result = arr6.reduce(add, shipping)
+
+// function add(total, current) {
+//     return total + current;
+// }
+
+// console.log(result);
+
+
+// var arr6 = [2, 5];
+// var shipping = 100;
+// var result = arr6.reduce((a, b, i, arr) => {
+
+
+// }, shipping);
+
+// console.log(result);
+
+
+// var arr677 = [1, 2]
+
+// arr677[3] = "20"
+
+// console.log(arr677);
+
+
+// var myArr = Array(5)
+// myArr.fill("a", 2, 3)
+// myArr.fill("a")
+
+// console.log(m.entries(myArr));
+
+
+
+
+// var myArr = ["banana", "mango", "kdfjk"]
+
+// [0,1,2,3,]
+// var keyss = myArr.keys()
+
+// for (let a of keyss) {
+//     console.log(a);
+// }
+
+
+// var myArr2 = myArr;
+// var myArr2 = Array.from(myArr)
+
+// myArr2[0] = "changed"
+
+// console.log(myArr);
+// console.log(myArr2);
+
+
+
+
+
+// var newArray = myArr.entries() // [[0,"banana"], [1, "mango"]]
+
+// console.log(Array.from(myArr));
+
+
+// for (let e of newArray) {
+//     console.log(e);
+// }
+
+
+// var obj = {
+//     name : 'JavaScript',
+
+// }
+
+// var person = {
+//     name: 'Hero Alom',
+//     age: 28,
+//     isMarried: true,
+//     activities: {
+//         banglaGan: 4,
+//         EnglishGan: 5
+//     },
+//     movies: ["ami neta hobo", "mar chokka", "sahoshi alom"],
+//     sing: function () {
+//         console.log("Alom is singing!");
+//     }
+// }
+
+// person.totalMovies = 10;
+// person.age = 30;
+
+// delete person.isMarried;
+
+
+
+
+// console.log(person);
+
+
+
+
+// var obj1 = new Object()
+// console.log(obj1);
+// console.log(person?.activitie?.EnglishGan);
+// person.sing()
+
+
+// var obj = {
+//     person: {
+//         name: name,
+//     }
+// }
+
+
+// var name = "Mehedi";
+
+// var person = {
+//     name: "hasan",
+//     print: function () {
+//         console.log(this.name);
+//     }
+// }
+
+// var props = "name"
+// console.log(person.props);
+// console.log(person[props]);
+// console.log(props in person);
+
+
+
+// var obj = {
+//     a: 10,
+//     b: 40,
+// }
+
+// var obj1 = Object.assign({}, obj);
+
+// obj1.a = "ten";
+
+// console.log(obj);
+// console.log(obj1);
+
+
+
+// console.log(JSON.stringify(obj) === JSON.stringify(obj1));
+// console.log(obj);
+
+
+
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+
+
+
+// for (let prop in obj) {
+//     console.log(prop);
+//     console.log(obj[prop]);
+// }
+
+// function myFunc() {
+//     console.log("Function has been called");
+// }
+
+// myFunc()
+
+
+// function fullName(fName, lName) {
+//     console.log(fName + " " + lName);
+// }
+
+// fullName("Joy", "Sorkar")
+// fullName("Mehedi", "Hasan")
+
+// function add(a, b) {
+//     // console.log(a + b);
+//     var arr = arguments
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     console.log(sum);
+
+// }
+
+// add(2, 4, 4, 5, 3, 5, 6, 7, 5, 6, 6)
+
+
+// function add(a, b) {
+//     var result = a + b;
+//     return result;
+
+// }
+
+// var r = add(2, 3)
+// console.log(r);
+// var x = 10;
+
+// function add(a, b) {
+//     var sum = a + b;
+
+//     function sqr() {
+//         var result = sum * sum;
+//         return result;
+
+//     }
+//     return sqr();
+
+// }
+
+// sqr()
+// console.log(add(2, 5));
+
+// function CBImplementation(a, b, cb) {
+//     var c = a - b;
+//     var d = a + b;
+
+//     var result = cb(c, d);
+//     return result;
+
+// }
+
+// console.log(CBImplementation(5, 2, function (c, d) {
+//     return c + d;
+// }));
+
+// console.log(CBImplementation(5, 2, function (c, d) {
+//     return c - d;
+// }));
+// console.log(CBImplementation(5, 2, function (c, d) {
+//     return c * d;
+// }));
+
+
+
+// arr.forEach(function (val, i, arr) {
+//     console.log(val);
+// })
+
+// function ourForEach(arr, cb) {
+
+//     for (let i = 0; i < arr.length; i++) {
+//         cb(arr[i], i, arr)
+//     }
+
+// }
+// var sum = 0;
+// ourForEach(arr, function (val, i, arr) {
+//     sum += val;
+// })
+// console.log(sum);
+
+// function MyFind(arr, cb) {
+//     for (var e of arr) {
+//         var condition = cb(e);
+//         if (condition) {
+//             return e;
+//         }
+//     }
+// }
+
+
+// console.log(MyFind(arr, function (e) {
+//     return e > 4
+// }));
+
+// var arr = [1, 2, 3, 4, 5]
+
+// function myFilter(arr, cb) {
+//     var newArray = []
+//     for (let i = 0; i < arr.length; i++) {
+
+//         if (cb(arr[i], i, arr)) {
+//             newArray.push(arr[i])
+//         }
+//     }
+//     return newArray;
+// }
+
+
+
+
+// console.log(myFilter(arr, function (val) {
+//     return val % 2 === 0
+// }));
