@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1 id="heading">Hello</h1>
+
+ <ul>
+     <li>list-1</li>
+     <li>list-2</li>
+     <li>list-3</li>
+     <li>list-4</li>
+     <li>list-5</li>
+ </ul>
+
+ <p class="paragraph">lorem1</p>
+ <p class="paragraph">lorem2</p>
+ <p class="paragraph">lorem3</p>
+
+ <h1 name="tagName">Lorem, ipsum.</h1>
+ <h1 name="tagName">Lorem, ipsum.</h1>
+ <h1 name="tagName">Lorem, ipsum.</h1>
+
+
+<ul id="food">
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li id="five">Mang</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+    <li>Mango</li>
+</ul>
+
+<!-- <div> 
+    <ul id="food">
+        <!-- this is a comment 
+        This is a text
+        <li >Banana</li>
+        <li>Mango</li>
+    </ul>
+</div> -->
+
+<script>
+var heading = document.getElementById("heading")
+var listItem = document.getElementsByTagName("li")
+var paragraph = document.getElementsByClassName('paragraph')
+var name1 = document.getElementsByName('tagName')
+// console.log(name1);
+
+var food = document.querySelector("#food")
+var five = document.querySelector("#five")
+// console.log(food.childNodes);
+// console.log(food.children);
+// console.log(food.parentElement);
+// console.log(food.parentNode);
+// console.log(food.firstChild);
+// console.log(five.previousSibling);
+// console.log(five.previousElementSibling);
+// console.log(five.nextSibling);
+// console.log(five.nextElementSibling);
+
+// for (var e of food.children){
+//    e.style.color = 'red'
+// }
+
+
+
+</script>
+</body>
+</html>
+

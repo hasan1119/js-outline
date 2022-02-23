@@ -864,3 +864,45 @@ var b = 20;
 // console.log(myFilter(arr, function (val) {
 //     return val % 2 === 0
 // }));
+
+var arr = [1, 2, 3, 5, 6]
+
+// console.log(arr.indexOf(3));
+// console.log(arr.findIndex(function (val, i, arr) {
+//     return val === 3
+// }));
+
+// for (var i = 0; i < arr.length; i++) {
+
+//     if (arr[i] > 3) {
+//         console.log(i);
+//         break;
+//     }
+// }
+
+
+
+// function print(val) {
+//     console.log(val);
+// }
+
+// function add(a, b) {
+//     return a + b
+// }
+
+// function sqr(n) {
+//     return n * n
+// }
+
+// print(sqr(add(2, 3)))
+
+// function recursiveFunc(n) {
+
+//     if (n === 0) {
+//         return
+//     }
+//     console.log(n);
+//     recursiveFunc(n - 1)
+// }
+
+// recursiveFunc(100)

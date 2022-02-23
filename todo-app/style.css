@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #212121;
+}
+
+
+
+.container{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.taskCreation input {
+    padding: 5px;
+}
+
+.taskCreation button {
+    padding: 5px;
+}
+
+.display_area ul .item {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+
+ul#task_list {
+    max-width: 500px;
+    margin: auto;
+}
+
+.display_area ul .item li {
+    flex: 1;
+    text-align: left;
+    list-style: none;
+    background: orange;
+    padding: 10px;
+}
+
+ul#task_list {
+    margin: 20px auto;
+}
+
+.display_area ul .item button {
+    height: 39px;
+    width: 39px;
+}
+
+.display_area ul .item button i {
+    font-size: 25px;
+    pointer-events: none;
+}
+
+.completed-task{
+    
+      text-decoration: line-through;
+      opacity: .5;
+}
